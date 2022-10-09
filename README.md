@@ -12,8 +12,8 @@ https://github.com/arielroque/ansible-playbooks.git
 ```
 ## :books: Available playbooks
 
-- :book: [`Setup VM`](https://github.com/arielroque/ansible-playbooks/blob/main/playbooks/setup-vm. yaml) for install Docker and Kubectl
-- :book: [`Setup VM with SGX Driver`](https://github.com/arielroque/ansible-playbooks/blob/main/playbooks/setup-vm-with-sgx.yaml) for install Docker, Kubectl and Intel SGX Driver
+- :book: [`Setup VM`](https://github.com/arielroque/ansible-playbooks/blob/main/playbooks/setup-vm.yaml) for install Docker (with post instalation) and Kubectl
+- :book: [`Setup VM with SGX Driver`](https://github.com/arielroque/ansible-playbooks/blob/main/playbooks/setup-vm-with-sgx.yaml) for install Docker (with post instalation), Kubectl and Intel SGX Driver
 
 
 ## :triangular_flag_on_post: Running
