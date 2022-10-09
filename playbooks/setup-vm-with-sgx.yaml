@@ -9,7 +9,5 @@
   - name: Install Kubectl
     include_tasks: ./general-tasks/install-kubectl.yaml
 
-
-
-
-
+  - name: Install SGX Driver
+    include_tasks: ./general-tasks/install-sgx-driver.yaml
