@@ -5,15 +5,23 @@
 
 ## :triangular_flag_on_post: Starting
 ```bash
-#Clone the project
+#Clone the repository
 https://github.com/arielroque/ansible-playbooks.git
 ```
-## 📚 Available playbooks
+## :books: Available playbooks
 
-- 📖 [`Setup VM`](https://github.com/arielroque/ansible-playbooks/blob/main/playbooks/setup-vm.yml) 
-- 📖 [`Setup VM with SGX Driver`](https://github.com/arielroque/ansible-playbooks/blob/main/playbooks/setup-vm.yml)
+- :book: [`Setup VM`](https://github.com/arielroque/ansible-playbooks/blob/main/playbooks/setup-vm.yaml) 
+- :book: [`Setup VM with SGX Driver`](https://github.com/arielroque/ansible-playbooks/blob/main/playbooks/setup-vm-with-sgx.yaml)
 
+
+## :triangular_flag_on_post: Running
 
 ```bash
-ansible-playbook setup-vm/main.yml -i hosts
+# Export HOST IP
+export HOST_IP=<IP>
+echo $HOST_IP >> hosts
+
+# Available command options:
+# ansible-playbook playbooks/setup-vm.yaml -i hosts
+# ansible-playbook playbooks/setup-vm-with-sgx.yaml -i hosts
 ```
